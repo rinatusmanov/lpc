@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+
+</head>
+<body class="page">
+		<div id="content" class="main-content main__main-content">
+			<div class="">
+				<table id="table-order" class="table-manufacture table-manufacture-100" >
+					<tr class="table-manufacture-th-tr">
+						<th class="table-manufacture-th table-manufacture-th">ID МАРШРУТА</th>
+						<th class="table-manufacture-th table-manufacture-th">ТОЧКА ОТПРАВЛЕНИЯ</th>
+						<th class="table-manufacture-th table-manufacture-th">ТОЧКА ПРИБЫТИЯ</th>
+						<th class="table-manufacture-th table-manufacture-th">ТРАНСПОРТ</th>
+						<th class="table-manufacture-th table-manufacture-th">МАРШРУТ СЛЕДОВАНИЯ</th>
+						<th class="table-manufacture-th table-manufacture-th">ЗАКАЗЫ</th>
+						<th class="table-manufacture-th table-manufacture-th">ПРИБЫЛЬ</th>
+						<th class="table-manufacture-th table-manufacture-th">ПЕРЕВОЗЧИК</th>
+						<th class="table-manufacture-th table-manufacture-th">ПЕРЕОДИЧНОСТЬ</th>
+						<th class="table-manufacture-th table-manufacture-th">ОБЪЕМ</th>
+						<th class="table-manufacture-th table-manufacture-th">ДЕЙСТВИЕ</th>
+						<th class="table-manufacture-th table-manufacture-th">ПОДРОБНЕЕ</th>
+					</tr>
+					<tr class="table-manufacture-tr table-manufacture-tr-logists">
+						<td class="table-manufacture-td">ТЕСТ</td>
+						<td class="table-manufacture-td">ТЕСТ</td>
+						<td class="table-manufacture-td">ТЕСТ</td>
+						<td class="table-manufacture-td">ТЕСТ</td>
+						<td class="table-manufacture-td">
+						<input type="button" class=" input-manufacture-button input-manufacture-button-details" value="Детали"></td>
+					 	<td class="table-manufacture-td">ТЕСТ</td>
+						<td class="table-manufacture-td">ТЕСТ</td>
+						<td class="table-manufacture-td">ТЕСТ</td>
+						<td class="table-manufacture-td">ТЕСТ</td>
+						<td class="table-manufacture-td">ТЕСТ</td>
+						<td class="table-manufacture-td"><div type="button" class=" input-manufacture-button input-manufacture-button-details input-manufacture-button-details-logists" >Обратный маршрут сформировать</div></td>
+						<td class="table-manufacture-td">
+							<div class="warehouse-window-content-dropdown">
+								<div class="warehouse-window-content-dropdown-plus warehouse-window-content-dropdown-plus-order plus-order">
+									<p class="warehouse-window-content-dropdown-plus-add">&#8659;</p>
+								</div>
+								<div id="drop-add-orderInTable" class="warehouse-window-content-dropdown-main warehouse-window-content-dropdown-main-order">
+									<form>
+										<div class="warehouse-window-content-dropdown-main-block warehouse-window-content-dropdown-main-block-order">
+											<div class="warehouse-window-content-dropdown-main-block-head">
+												<div class="warehouse-window-content-dropdown-main-block-head-left">
+													<p class="warehouse-window-content-dropdown-main-block-head-left-text">КАРТОЧКА ЗАКАЗА:</p>
+												</div>
+											</div>
+											<div style="width: 100%; position: relative;">
+												<table id="table-order" class="table-order" >
+													<tr class="table-order-th-tr">
+														<th class="table-order-th table-order-th-45">ИНФОРМАЦИЯ ПО ЗАКАЗУ:</th>
+														<th class="table-order-th table-order-th-30">ИНФОРМАЦИЯ О ГРУЗЕ:</th>
+														<th class="table-order-th table-order-th-25" colspan="2">ОБЪЕМ:</th>
+														
+													</tr>
+													<tr class="table-order-tr" >
+														<td class="table-order-td" rowspan="6"> 
+															<label>ID заказа:</label>
+															<input class="table-order-input" type="text"><br>
+															<label>Загрузка:</label>
+															<input class="table-order-input" type="date"><br>
+															<label>Разгрузка:</label>
+															<input class="table-order-input" type="date"><br>
+															<label>Доборный:</label>
+															<input class="table-order-input" type="text"><br>
+															<label>Перевозчик:</label>
+															<input class="table-order-input" type="text"><br>
+															<label>Отправитель:</label>
+															<input class="table-order-input" type="text"><br>
+															<label>Получатель:</label>
+															<input class="table-order-input" type="text"><br>
+															<label>Комментарий:</label>
+															<input class="table-order-input" type="text"><br>
+															<label>Маршрут:</label>
+															<input class="table-order-input" type="button" value="ID маршрута"><br>
+														</td>
+														<td class="table-order-td" rowspan="6"> 
+															<label>Вес:</label>
+															<input class="table-order-input" type="text"><br>
+															<label>Объем:</label>
+															<input class="table-order-input" type="text"><br>
+															<label>Длина:</label>
+															<input class="table-order-input" type="text"><br>
+															<label>Ширина:</label>
+															<input class="table-order-input" type="text"><br>
+															<label>Высота:</label>
+															<input class="table-order-input" type="text"><br>
+															<label>Тип погрузки:</label>
+															<input class="table-order-input" type="text"><br>
+															<label>Категория:</label>
+															<input class="table-order-input" type="text"><br>
+															<label>упаковка:</label>
+															<input class="table-order-input" type="text"><br>
+															<label>Разрешение</label>
+															<input class="table-order-input" type="text"><br>
+															<label>Код КТД:</label>
+															<input class="table-order-input" type="text"><br>
+														</td>
+														<td class="table-order-td"  colspan="2" >
+															<label>Стоимость:</label>
+															<input class="table-order-input" type="text"><br>
+															<label>Оплата:</label>
+															<input class="table-order-input" type="text"><br>
+														</td>
+														
+													</tr>
+													<tr class="table-order-th-tr">
+														<th class="table-order-th table-order-th-25" colspan="2">ДОКУМЕНТЫ:</th>
+													<tr>
+													<tr class="table-order-th-tr">
+														<td class="table-order-td">
+															<p >Наименование:</p>
+														</td>
+														<td class="table-order-td"> 
+															<p >Документы:</p>
+														</td>
+													<tr> 
+													<tr class="table-order-th-tr">
+														<td class="table-order-td">
+															<p >PVD</p>
+															<p >CMP</p>
+															<p >TTH</p>
+														</td>
+														<td class="table-order-td">
+														</td>
+													</tr>
+												</table>
+												
+											</div>
+										</div>
+										<input type="button" value="СОХРАНИТЬ"  class="warehouse-window-content-dropdown-main-input" />
+									</form>
+								</div>
+							</div>
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>	
+	</div>
+
+	<script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="./js/main.js"></script>
+	</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+
+</head>
+<body class="page">
+		
+		<div id="content" class="main-content main__main-content">
+			<div class="filter-button">		
+				фильтр >
+			</div>
+			<div id="drop-add2" class="filter-dropdown__content filter-dropdown__content--style">										
+				<form>
+					<div  class="filter-block1">
+						ФИЛЬТР
+					</div>
+					<div  class="filter-block2">
+				       	<p class="filter-block2-text"> по дате: </p>
+				      	<input type="date"  class="filter-block2-input">
+				       	<input type="date"  class="filter-block2-input">
+				        <p>по ответственному: </p>
+				        <select class="filter-block2-select">
+				        	<option>Вася</option>
+				        	<option>Таня</option>
+				        </select>
+				        <p>по контрагенту </p>
+				        <input type="search" class="filter-block2-input"/>
+						<input type="button" value="ОК"  class="filter-block2-button" />
+						           
+			        </div>
+					
+
+			    </form>
+			</div>
+			<table class="table-manufacture table-manufacture-documents">
+				<tr class="table-manufacture-th-tr">
+					<th class="table-manufacture-th table-manufacture-th">№</th>
+					<th class="table-manufacture-th table-manufacture-th-mm">ID</th>
+					<th class="table-manufacture-th table-manufacture-th-mm">ДАТА</th>
+					<th class="table-manufacture-th table-manufacture-th-mm">НАИМЕНОВАНИЕ</th>
+					<th class="table-manufacture-th table-manufacture-th-mm">ОТВЕТСТВЕННЫЙ</th>
+					<th class="table-manufacture-th table-manufacture-th-mm">КОНТРАГЕНТ</th>
+					<th class="table-manufacture-th table-manufacture-th-mm">СКАЧАТЬ</th>
+				</tr>
+				<tr class="table-manufacture-tr">
+					<td class="table-manufacture-td">17BC433</td>
+					<td class="table-manufacture-td">HF6548709</td>
+					<td class="table-manufacture-td">01.08.17</td>
+					<td class="table-manufacture-td"></td>
+					<td class="table-manufacture-td">Султанова А.И.</td>
+					<td class="table-manufacture-td">Султанова А.И.</td>
+					<td class="table-manufacture-td">
+						<div class="table-manufacture-documents-download">
+							<img src="./img/download.png" class="table-manufacture-documents-download-image">
+							<p class="table-manufacture-documents-download-text">SLS</p>
+						</div>
+						
+					</td>
+				</tr>
+			</table>
+		</div>
+	<script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="./js/main.js"></script>
+
+</body>
+</html>
